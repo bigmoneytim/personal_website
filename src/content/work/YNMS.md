@@ -18,7 +18,7 @@ tags:
 Over a pizza some random Wednesday early in production on Archer season 6, my colleague Mark Paterson mentioned that he had snuck a little secret into the background of a shot in episode 1 that led to another secret. He'd gotten approval from the producers to keep this trail of breadcrumbs going but was wondering if I had any ideas where else this easter egg could go. I had a few suggestions, but my largest material contribution was a video game with a secret ending, which I would create between my normal duties at work over the next several weeks.
 
 ***
-*You can play YOU'RE NOT MY SUPERVISOR and explore a little of the Scavenger Hunt by [CLICKING HERE](https://algersoft.net/login/krieger/projects/arson%20simulation.php). Krieger's password is 'guest' if you'd like to log in and explore deeper.*
+*You can play YOU'RE NOT MY SUPERVISOR and explore a little of the Scavenger Hunt by <a href="https://algersoft.net/login/krieger/projects/arson%20simulation.php" target="_blank">CLICKING HERE</a>. Krieger's password is 'guest' if you'd like to log in and explore deeper.*
 ***
 
 YOU'RE NOT MY SUPERVISOR was developed in Game Maker Studio. In fiction, created by the show's mad scientist Krieger, you play as Cheryl, a character on FXX's Archer known for being a firebug. The object of the game is to set fire to Malory Archer's office and escape before being burnt alive while avoiding being boxed in by the helpful toast-making robot Milton.
