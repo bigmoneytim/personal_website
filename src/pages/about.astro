@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/emmyduo.jpg"
+					alt="Tim Farrell celebrating an Emmy win with Mark Paterson"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Tim is an Atlanta-based Compositor, After Effects Animator, and Game Designer. 
+						Born and raised in Baltimore, he graduated from UMBC with a BFA in Visual Arts and a Minor in Art History. He went on 
+						to receive a MFA in Animation at SCAD. He has worked in the Film and  Television industries 
+						for over 18 years. He most recently worked as Compositing Director on 
+						season 2 of Hit-Monkey on Hulu.
+					</p>
+					<br>
+					<p>
+						Since entering the industry, Tim has had professional roles as an After Effects Animator,
+						Compositor in multiple software platforms, Game Designer, and Comedy Writer. He has worked solo, 
+						on large teams, and has managed teams of dozens of artists on fast-paced productions.
+					</p>
+					<br>
+					<p>
+						In addition to his professional work, Tim was internet famous for about 10 minutes thanks to a viral cartoon at 
+						SCAD. That cartoon led to a few film festival awards and a series of animated eCards on JibJab as part of a special artist 
+						collaboration for their Sendables line. Tim also enjoys barebow archery and reading shlocky horror and sci-fi novels.
+					</p>
+					
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p><strong>Master of Fine Arts</strong> - Animation</p>
+					<p>Savannah College of Art and Design</p>
+					<br>
+					<p><strong>Bachelor of Arts</strong> - Visual Arts</p>
+					<p>University of Maryland, Baltimore County</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>
+						<ul>
+							<li>After Effects</li>
+							<li>Blackmagic Fusion</li>
+							<li>Particle Systems</li>
+							<li>Photoshop</li>
+							<li>Adobe Create Suite</li>
+							<li>Premiere</li>
+							<li>Davinci Resolve</li>
+							<li>Nuke</li>
+							<li>Ftrack</li>
+							<li>Google Business Suite</li>
+						  </ul> 
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Awards</h2>
+				<div class="content">
+					<p>
+						<ul>
+							<li>Primetime Emmy Award - Outstanding Personal Achievement - 2015</li>
+							<li>Primetime Emmy Award - Outstanding Personal Achievement - 2016</li>
+							<li>Primetime Emmy Award - Outstaind Animated Program - Contributed - 2016</li>
+							<li>CLIO Gold Award - App - 2017</li>
+							<li>CLIO Gold Award - Game - 2017</li>
+							<li>Channel Frederator Award - Most Likely to be Censored by the FCC - 2006 </li>
+							<li>Macon Film Festival - 2nd Place Animation - 2006</li>
+							<li>Transdimentional Film Fest - Best Animation - 2005</li>
+						  </ul> 
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
