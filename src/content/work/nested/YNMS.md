@@ -11,9 +11,9 @@ tags:
   - Emmy Awards
 ---
 
-## Making Games
+## The Emmy Award Winning 2015 Archer Scavenger Hunt
 
-> YOU'RE NOT MY SUPERVISOR and the 2015 Archer Scavenger Hunt
+> YOU'RE NOT MY SUPERVISOR
 
 Over a pizza some random Wednesday early in production on Archer season 6, my colleague Mark Paterson mentioned that he had snuck a little secret into the background of a shot in episode 1 that led to another secret. He'd gotten approval from the producers to keep this trail of breadcrumbs going but was wondering if I had any ideas where else this easter egg could go. I had a few suggestions, but my largest material contribution was a video game with a secret ending, which I would create between my normal duties at work over the next several weeks.
 

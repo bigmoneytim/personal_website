@@ -11,7 +11,7 @@ tags:
   - Emmy Awards
 ---
 
-## The 2016 Archer Scavenger Hunt
+## The Emmy Award Winning 2016 Archer Scavenger Hunt
 
 > Milton Toast to Toast
 
