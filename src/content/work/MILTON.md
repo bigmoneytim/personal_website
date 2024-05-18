@@ -1,7 +1,7 @@
 ---
 title: Archer Scavenger Hunt 2016
 publishDate: 2018-02-02 00:00:00
-img: /assets/games.png
+img: /assets/games2.png
 img_alt: an image of a screen from Milton Toast to Toast game
 description: |
   I designed a number of award winning games featured in official marketing for broadcast television

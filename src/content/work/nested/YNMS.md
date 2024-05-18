@@ -1,7 +1,7 @@
 ---
 title: Archer Scavenger Hunt 2015
 publishDate: 2018-02-02 00:00:00
-img: /assets/YNMS2.png
+img: /assets/YNMS.png
 img_alt: an image of a screen from You're Not My Supervisor game
 description: |
   I co-designed an Emmy Award Winning marketing project for broadcast television.

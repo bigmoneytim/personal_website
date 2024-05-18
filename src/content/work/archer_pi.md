@@ -1,7 +1,7 @@
 ---
 title: Archer, PI
 publishDate: 2019-10-02 00:00:00
-img: /assets/ArcherPI.jpg
+img: /assets/ArcherPI2.jpg
 img_alt: Images of the ArcherPI app.
 description: |
   We developed a unique Point-and-Click adventure\detective game using AR technology to grab game items directly from the television show.
