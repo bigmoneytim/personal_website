@@ -1,6 +1,6 @@
 ---
 title: Mistor Cartoons
-publishDate: 2018-02-02 00:00:00
+publishDate: 2013-02-02 00:00:00
 img: /assets/stock-1.jpg
 img_alt: stock image placeholder
 description: |
@@ -18,6 +18,14 @@ tags:
 Placeholder text
 
 > WTF?!
+
+Placeholder text
+
+>JibJab Sendables
+
+***
+Placeholder text about how to view them
+***
 
 Placeholder text
 
