@@ -11,6 +11,7 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
+import { Tweet, Vimeo, YouTube } from 'astro-embed';
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
@@ -66,8 +67,8 @@ const projects = (await getCollection('work'))
 					<Grid variant="offset">
 						{
 							 
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/67iZEtDC3yk?si=pjcQUk1ADDNig9T2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/4-Rwl3we9tg?si=lHtGZ8aurV-EBpEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									<YouTube id="https://www.youtube.com/embed/67iZEtDC3yk?si=pjcQUk1ADDNig9T2" />
+									<YouTube id="https://www.youtube.com/embed/4-Rwl3we9tg?si=lHtGZ8aurV-EBpEo" />
 								
 						}
 					</Grid>

@@ -8,6 +8,7 @@ import Hero from '../../components/Hero.astro';
 import Icon from '../../components/Icon.astro';
 import Pill from '../../components/Pill.astro';
 
+
 interface Props {
 	entry: CollectionEntry<'work'>;
 }
@@ -28,6 +29,7 @@ const { Content } = await entry.render();
 ---
 
 <BaseLayout title={entry.data.title} description={entry.data.description}>
+
 	<div class="stack gap-20">
 		<div class="stack gap-15">
 			<header>
